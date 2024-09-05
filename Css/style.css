@@ -1,0 +1,70 @@
+body{
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 0;
+    padding: 15px 0px 15px 5px;
+}
+
+h1{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+   border: 2.5px solid rgba(0, 0, 0, 0.3);
+}
+
+img{
+    width: 320px;
+    height: 320px;
+    border-radius: 320px;
+    margin-top: 10px;
+}
+
+/*Classes Listas*/
+.Lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.ListaInterna{
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 20%;
+    border: 2.5px solid rgba(0, 0, 0, 0.3);
+    height: 400px;
+    margin: 0 10px 0 10px;
+}
+
+.ListaInterna>h2{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    border-bottom: 2.5px solid rgba(0, 0, 0, 0.5);
+}
+
+/*IDs Texto*/
+p{
+    line-height: 20px;
+    text-align: justify;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#txt01{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#txt02{
+    color: black;
+    text-align: justify;
+}
